@@ -1,0 +1,40 @@
+.block {
+    width: 200px; /* Set the desired width for your block */
+    height: 150px; /* Set the desired height for your block */
+    position: relative; /* Position property should be relative for children to be positioned within it */
+     /* Optional: Add a border to the block for visualization */
+     margin-bottom: 10px;
+}
+
+.block img {
+    position: absolute; /* Position the image absolutely within the block */
+    top: 65%; /* Adjust the top position as needed to center vertically */
+    left: 75%; /* Adjust the left position as needed to center horizontally */
+    transform: translate(-50%, -50%); /* Center the image within the block */
+    max-width: 100%; /* Ensure the image doesn't overflow the block */
+    max-height: 100%; /* Ensure the image doesn't overflow the block */
+}
+
+.slides{
+    width: 100%; /* Set the desired width for your block */
+    height: 200px; /* Set the desired height for your block */
+    position: relative; /* Position property should be relative for children to be positioned within it */
+     /* Optional: Add a border to the block for visualization */
+   margin-bottom: 20%;
+}
+.slides pic{
+    position: absolute; /* Position the image absolutely within the block */
+    top: 50%; /* Adjust the top position as needed to center vertically */
+    left: 50%; /* Adjust the left position as needed to center horizontally */
+    transform: translate(-50%, -50%); /* Center the image within the block */
+    max-width: 100%; /* Ensure the image doesn't overflow the block */
+    max-height: 100%; /* Ensure the image doesn't overflow the block */
+}
+/* .background-image{
+    background-image:url('./images/backround.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
+} */
+
