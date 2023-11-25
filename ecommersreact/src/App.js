@@ -19,10 +19,10 @@ function App() {
       <Slides/> 
         <Routes>
         
-          <Route exact path='/' element={<Cards  data={data} handleCartData={handleCartData}/>}></Route>
+          <Route path='/' element={<Cards  data={data} handleCartData={handleCartData}/>}></Route>
         </Routes>
         <Routes>
-             <Route exact path='/cart' element={<Carts data={cartData} />} />
+             <Route  path='/cart' element={<Carts data={cartData} />} />
        </Routes>
 
       </Router>
